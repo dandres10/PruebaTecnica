@@ -1,0 +1,5 @@
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\bin\Debug\Base.Negocio.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\bin\Debug\Base.Negocio.pdb
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.pdb

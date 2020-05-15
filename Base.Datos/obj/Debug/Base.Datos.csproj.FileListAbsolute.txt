@@ -1,0 +1,5 @@
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\bin\Debug\Base.Datos.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\bin\Debug\Base.Datos.pdb
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.csproj.CoreCompileInputs.cache
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.pdb

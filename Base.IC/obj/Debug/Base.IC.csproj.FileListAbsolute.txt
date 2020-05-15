@@ -1,0 +1,5 @@
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\bin\Debug\Base.IC.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\bin\Debug\Base.IC.pdb
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\obj\Debug\Base.IC.csproj.CoreCompileInputs.cache
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\obj\Debug\Base.IC.dll
+C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\obj\Debug\Base.IC.pdb
