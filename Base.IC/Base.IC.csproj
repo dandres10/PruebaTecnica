@@ -41,13 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Acciones\EntidadesRepositorio\ITipoDocumentoAccion.cs" />
+    <Compile Include="Clases\Respuesta.cs" />
+    <Compile Include="DTO\EntidadesRepositorio\ITipoDocumentoDTO.cs" />
+    <Compile Include="Enumeraciones\TipoNotificacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Acciones\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Enumeraciones\" />
+    <Folder Include="DTO\Consultas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

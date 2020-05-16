@@ -60,15 +60,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\DAL\EntidadesRepositorio\TipoDocumentoDAL.cs" />
+    <Compile Include="Clases\DO\EntidadesRepositorio\TipoDocumento.cs" />
+    <Compile Include="Contexto\Contexto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Clases\DAL\" />
-    <Folder Include="Clases\DO\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Contexto\comicDB.db" />
+    <None Include="Contexto\comicDB.db-journal" />
+    <None Include="Contexto\comicDB.db.sqbpro" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base.IC\Base.IC.csproj">
+      <Project>{B9234052-D7E3-464D-A68A-DA0FEC6749CB}</Project>
+      <Name>Base.IC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
