@@ -3,6 +3,7 @@ C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\bin\Debug\Base.Negoc
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.dll
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Negocio\obj\Debug\Base.Negocio.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Negocio.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Negocio.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Negocio.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Datos.dll
@@ -12,7 +13,6 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Datos.pd
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.Datos.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Base.IC.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\System.Data.SQLite.xml
-C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.csprojAssemblyReference.cache
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.csproj.CopyComplete

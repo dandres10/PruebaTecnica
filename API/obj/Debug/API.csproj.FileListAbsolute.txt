@@ -162,6 +162,7 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Datos.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Data.SQLite.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.IC.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Negocio.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Negocio.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Net.Http.Formatting.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.WebHost.xml
@@ -178,7 +179,6 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Microsoft.CodeDom.Providers.
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Datos.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Datos.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Data.SQLite.xml
-C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Data.SQLite.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\es\System.Web.Helpers.resources.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\es\System.Web.Mvc.resources.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\es\System.Web.Optimization.resources.dll

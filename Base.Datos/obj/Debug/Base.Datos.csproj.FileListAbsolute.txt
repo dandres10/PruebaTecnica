@@ -16,7 +16,6 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Base.IC.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\EntityFramework.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\System.Data.SQLite.xml
-C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.csprojAssemblyReference.cache
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.csproj.CoreCompileInputs.cache
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.csproj.CopyComplete

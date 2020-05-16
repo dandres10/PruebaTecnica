@@ -45,7 +45,9 @@
     <Compile Include="Clases\BO\EntidadesRepositorio\TipoDocumentoBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Base.Datos\Base.Datos.csproj">
       <Project>{9AA2A556-0F4D-4F69-AB01-EF9A67F55B05}</Project>

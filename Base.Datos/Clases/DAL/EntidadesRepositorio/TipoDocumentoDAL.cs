@@ -84,6 +84,7 @@
             {
                 command.ExecuteNonQuery();
                 RespuestaExitoso(tipoDocumento);
+                connection.Close();
             }
             catch (Exception error)
             {
