@@ -60,8 +60,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\DAL\EntidadesRepositorio\ComicDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\TipoDocumentoDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\UsuarioDAL.cs" />
+    <Compile Include="Clases\DO\EntidadesRepositorio\Comic.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\TipoDocumento.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Usuario.cs" />
     <Compile Include="Contexto\Contexto.cs" />
@@ -70,7 +72,9 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Contexto\comicDB.db" />
+    <None Include="Contexto\comicDB.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Contexto\comicDB.db-journal" />
     <None Include="Contexto\comicDB.db.sqbpro" />
     <None Include="packages.config" />

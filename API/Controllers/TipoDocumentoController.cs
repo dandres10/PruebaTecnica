@@ -19,7 +19,7 @@
 
         [HttpPost]
         [Route("GuadarTipoDocumento")]
-        public Respuesta<TipoDocumento> GenerarAlmacenamientoOperacion(TipoDocumento tipoDocumento)
+        public Respuesta<TipoDocumento> GuadarAlmacenamientoOperacion(TipoDocumento tipoDocumento)
         {
             return Mapeador(negocioTipoDocumentoBL.GuadarTipoDocumento(tipoDocumento));
         }

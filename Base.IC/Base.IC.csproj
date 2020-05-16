@@ -41,13 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acciones\EntidadesRepositorio\IComicAccion.cs" />
     <Compile Include="Acciones\EntidadesRepositorio\ITipoDocumentoAccion.cs" />
     <Compile Include="Acciones\EntidadesRepositorio\IUsuarioAccion.cs" />
     <Compile Include="Clases\Respuesta.cs" />
+    <Compile Include="DTO\EntidadesRepositorio\IComicDTO.cs" />
     <Compile Include="DTO\EntidadesRepositorio\ITipoDocumentoDTO.cs" />
     <Compile Include="DTO\EntidadesRepositorio\IUsuarioDTO.cs" />
     <Compile Include="Enumeraciones\TipoNotificacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursosTxt\Querys\ComicQuery.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComicQuery.resx</DependentUpon>
+    </Compile>
     <Compile Include="RecursosTxt\Querys\TipoDocumentoQuery.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,6 +75,10 @@
     <Folder Include="DTO\Consultas\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="RecursosTxt\Querys\ComicQuery.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ComicQuery.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="RecursosTxt\Querys\TipoDocumentoQuery.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>TipoDocumentoQuery.Designer.cs</LastGenOutput>

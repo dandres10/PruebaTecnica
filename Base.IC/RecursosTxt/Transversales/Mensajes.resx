@@ -120,6 +120,9 @@
   <data name="AgregadoCorrectamente" xml:space="preserve">
     <value>Agregado correctamente.</value>
   </data>
+  <data name="Consulta" xml:space="preserve">
+    <value>Consulta Exitosa</value>
+  </data>
   <data name="ErrorAlIngresarDatos" xml:space="preserve">
     <value>Error al ingresar datos.</value>
   </data>

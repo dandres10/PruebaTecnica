@@ -39,37 +39,6 @@
             return Respuesta;
         }
 
-        private void ExecuteRead(SQLiteCommand command)
-        {
-            List<Usuario> usuarios = new List<Usuario>();
-
-            try
-            {
-                using (dataReader = command.ExecuteReader())
-                {
-                    while (dataReader.Read())
-                    {
-                        Usuario usuarioObj = new Usuario
-                        {
-                            Id = Convert.ToInt32(dataReader["id"].ToString()),
-                            Celular = Convert.ToInt32(dataReader["Celular"].ToString()),
-                            Direccion = dataReader["Direccion"].ToString(),
-                            Nombre = dataReader["Nombre"].ToString(),
-                            NumeroDocumento = Convert.ToInt32(dataReader["NumeroDocumento"].ToString()),
-                            TipoDocumento = Convert.ToInt32(dataReader["TipoDocumento"].ToString())
-                        };
-                        usuarios.Add(usuarioObj);
-                    }
-                }
-
-                RespuestaExitoso(usuarios.First());
-            }
-            catch (Exception error)
-            {
-                RespuestaFallido(error);
-            }
-        }
-
         public Respuesta<IUsuarioDTO> GuadarUsuario(IUsuarioDTO usuario)
         {
             Usuario usuarioObj = new Usuario();
@@ -127,7 +96,6 @@
             Respuesta.Mensajes = mensajes;
             Respuesta.Resultado = false;
             Respuesta.TipoNotificacion = (int)TipoNotificacion.Fallida;
-
         }
 
         private void ExecuteNonQuery(SQLiteCommand command, IUsuarioDTO usuario)
@@ -141,6 +109,40 @@
             catch (Exception error)
             {
                 RespuestaFallido(error);
+                connection.Close();
+            }
+        }
+
+        private void ExecuteRead(SQLiteCommand command)
+        {
+            List<Usuario> usuarios = new List<Usuario>();
+
+            try
+            {
+                using (dataReader = command.ExecuteReader())
+                {
+                    while (dataReader.Read())
+                    {
+                        Usuario usuarioObj = new Usuario
+                        {
+                            Id = Convert.ToInt32(dataReader["id"].ToString()),
+                            Celular = Convert.ToInt32(dataReader["Celular"].ToString()),
+                            Direccion = dataReader["Direccion"].ToString(),
+                            Nombre = dataReader["Nombre"].ToString(),
+                            NumeroDocumento = Convert.ToInt32(dataReader["NumeroDocumento"].ToString()),
+                            TipoDocumento = Convert.ToInt32(dataReader["TipoDocumento"].ToString())
+                        };
+                        usuarios.Add(usuarioObj);
+                    }
+                    dataReader.Close();
+                }
+
+                RespuestaExitoso(usuarios.First());
+            }
+            catch (Exception error)
+            {
+                RespuestaFallido(error);
+                dataReader.Close();
             }
         }
     }

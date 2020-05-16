@@ -18,3 +18,4 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.csproj.CopyComplete
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\obj\Debug\Base.Negocio.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Negocio\bin\Debug\Contexto\comicDB.db

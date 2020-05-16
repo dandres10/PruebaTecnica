@@ -21,3 +21,4 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.cspr
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.csproj.CopyComplete
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Contexto\comicDB.db

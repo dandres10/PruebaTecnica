@@ -191,3 +191,4 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\obj\Debug\API.csproj.CoreCompile
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\obj\Debug\API.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\obj\Debug\API.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Contexto\comicDB.db

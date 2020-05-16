@@ -70,6 +70,15 @@ namespace Base.IC.RecursosTxt.Transversales {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Consulta Exitosa.
+        /// </summary>
+        public static string Consulta {
+            get {
+                return ResourceManager.GetString("Consulta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Error al ingresar datos..
         /// </summary>
         public static string ErrorAlIngresarDatos {
