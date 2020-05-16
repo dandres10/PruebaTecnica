@@ -5,6 +5,8 @@
     using Base.IC.Clases;
     using Base.IC.DTO.EntidadesRepositorio;
     using Base.IC.Enumeraciones;
+    using Base.IC.RecursosTxt.Querys;
+    using Base.IC.RecursosTxt.Transversales;
     using Contexto;
     using System;
     using System.Collections.Generic;
@@ -28,7 +30,7 @@
             {
                 tipoDocumentoObj = Mapeador(tipoDocumento);
                 RespuestaExitoso(tipoDocumentoObj);
-                string query = "INSERT INTO TipoDocumento (Nombre,Codigo) VALUES (?,?)";
+                string query = TipoDocumentoQuery.InsertTipoDocumento;
                 using (command = new SQLiteCommand(query, connection))
                 {
                     command.Parameters.Add(new SQLiteParameter("Nombre", tipoDocumentoObj.Nombre));
@@ -55,7 +57,7 @@
         {
             List<ITipoDocumentoDTO> tipoDocumentos = new List<ITipoDocumentoDTO>();
             List<string> mensajes = new List<string>();
-            mensajes.Add("Agregado correctamente.");
+            mensajes.Add(Mensajes.AgregadoCorrectamente);
             tipoDocumentos.Add(tipoDocumento);
 
             Respuesta.Mensajes = mensajes;
@@ -68,7 +70,7 @@
         {
             List<ITipoDocumentoDTO> tipoDocumentos = new List<ITipoDocumentoDTO>();
             List<string> mensajes = new List<string>();
-            mensajes.Add("Error al ingresar datos");
+            mensajes.Add(Mensajes.ErrorAlIngresarDatos);
             mensajes.Add("Error: " + error);
             tipoDocumentos.Add(tipoDocumento);
 
@@ -88,6 +90,7 @@
             }
             catch (Exception error)
             {
+                connection.Close();
                 RespuestaFallido(tipoDocumento, error);
             }
         }

@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\DAL\EntidadesRepositorio\TipoDocumentoDAL.cs" />
+    <Compile Include="Clases\DAL\EntidadesRepositorio\UsuarioDAL.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\TipoDocumento.cs" />
+    <Compile Include="Clases\DO\EntidadesRepositorio\Usuario.cs" />
     <Compile Include="Contexto\Contexto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

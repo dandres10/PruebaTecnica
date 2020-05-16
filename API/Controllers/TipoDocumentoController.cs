@@ -1,7 +1,6 @@
 ﻿namespace API.Controllers
 {
     using API.Models.EntidadesRepositorio;
-    using Base.IC.Acciones.EntidadesRepositorio;
     using Base.IC.Clases;
     using Base.IC.DTO.EntidadesRepositorio;
     using Base.Negocio.Clases.BL.EntidadesRepositorio;
@@ -9,7 +8,7 @@
     using System.Web.Http;
 
     [RoutePrefix("api/TipoDocumento")]
-    public class TipoDocumentoController : ApiController, ITipoDocumentoAccion
+    public class TipoDocumentoController : ApiController
     {
         private TipoDocumentoBL negocioTipoDocumentoBL;
 
@@ -22,14 +21,7 @@
         [Route("GuadarTipoDocumento")]
         public Respuesta<TipoDocumento> GenerarAlmacenamientoOperacion(TipoDocumento tipoDocumento)
         {
-            Respuesta<ITipoDocumentoDTO> respuesta = GuadarTipoDocumento(tipoDocumento);
-
-            return Mapeador(respuesta);
-        }
-
-        public Respuesta<ITipoDocumentoDTO> GuadarTipoDocumento(ITipoDocumentoDTO tipoDocumento)
-        {
-            return negocioTipoDocumentoBL.GuadarTipoDocumento(tipoDocumento);
+            return Mapeador(negocioTipoDocumentoBL.GuadarTipoDocumento(tipoDocumento));
         }
 
         public Respuesta<TipoDocumento> Mapeador(Respuesta<ITipoDocumentoDTO> respuesta)

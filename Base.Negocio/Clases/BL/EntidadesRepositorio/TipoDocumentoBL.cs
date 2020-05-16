@@ -7,17 +7,12 @@
 
     public class TipoDocumentoBL : ITipoDocumentoAccion
     {
-
-        Respuesta<ITipoDocumentoDTO> Respuesta;
-        TipoDocumentoDAL tipoDocumentoDAL;
+        private TipoDocumentoDAL tipoDocumentoDAL;
 
         public TipoDocumentoBL()
         {
-            this.Respuesta = new Respuesta<ITipoDocumentoDTO>();
             this.tipoDocumentoDAL = new TipoDocumentoDAL();
-
         }
-
 
         public Respuesta<ITipoDocumentoDTO> GuadarTipoDocumento(ITipoDocumentoDTO tipoDocumento)
         {
