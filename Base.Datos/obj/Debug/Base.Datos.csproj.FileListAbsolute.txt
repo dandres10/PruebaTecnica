@@ -3,6 +3,7 @@ C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\bin\Debug\Base.Datos.p
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.csproj.CoreCompileInputs.cache
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.dll
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.Datos\obj\Debug\Base.Datos.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Contexto\comicDB.db
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Base.Datos.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Base.Datos.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Base.Datos.pdb
@@ -21,4 +22,3 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.cspr
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.csproj.CopyComplete
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\obj\Debug\Base.Datos.pdb
-C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.Datos\bin\Debug\Contexto\comicDB.db

@@ -61,9 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\DAL\EntidadesRepositorio\ComicDAL.cs" />
+    <Compile Include="Clases\DAL\EntidadesRepositorio\PedidoDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\TipoDocumentoDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\UsuarioDAL.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Comic.cs" />
+    <Compile Include="Clases\DO\EntidadesRepositorio\Pedido.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\TipoDocumento.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Usuario.cs" />
     <Compile Include="Contexto\Contexto.cs" />

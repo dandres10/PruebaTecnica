@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Acciones\EntidadesRepositorio\IComicAccion.cs" />
+    <Compile Include="Acciones\EntidadesRepositorio\IPedidoAccion.cs" />
     <Compile Include="Acciones\EntidadesRepositorio\ITipoDocumentoAccion.cs" />
     <Compile Include="Acciones\EntidadesRepositorio\IUsuarioAccion.cs" />
     <Compile Include="Clases\Respuesta.cs" />
     <Compile Include="DTO\EntidadesRepositorio\IComicDTO.cs" />
+    <Compile Include="DTO\EntidadesRepositorio\IPedidoDTO.cs" />
     <Compile Include="DTO\EntidadesRepositorio\ITipoDocumentoDTO.cs" />
     <Compile Include="DTO\EntidadesRepositorio\IUsuarioDTO.cs" />
     <Compile Include="Enumeraciones\TipoNotificacion.cs" />
@@ -54,6 +56,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ComicQuery.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RecursosTxt\Querys\PedidoQuery.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PedidoQuery.resx</DependentUpon>
     </Compile>
     <Compile Include="RecursosTxt\Querys\TipoDocumentoQuery.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -78,6 +85,10 @@
     <EmbeddedResource Include="RecursosTxt\Querys\ComicQuery.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ComicQuery.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecursosTxt\Querys\PedidoQuery.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PedidoQuery.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RecursosTxt\Querys\TipoDocumentoQuery.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
