@@ -41,12 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Clases\BL\EntidadesRepositorio\ComicBL.cs" />
+    <Compile Include="Clases\BL\EntidadesRepositorio\PedidoBL.cs" />
+    <Compile Include="Clases\BL\EntidadesRepositorio\TipoDocumentoBL.cs" />
+    <Compile Include="Clases\BL\EntidadesRepositorio\UsuarioBL.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\ComicBO.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\PedidosBO.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\TipoDocumentoBO.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\UsuarioBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Clases\BL\" />
-    <Folder Include="Clases\BO\" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base.Datos\Base.Datos.csproj">
+      <Project>{9AA2A556-0F4D-4F69-AB01-EF9A67F55B05}</Project>
+      <Name>Base.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Base.IC\Base.IC.csproj">
+      <Project>{B9234052-D7E3-464D-A68A-DA0FEC6749CB}</Project>
+      <Name>Base.IC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
