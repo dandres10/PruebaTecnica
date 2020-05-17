@@ -6,5 +6,6 @@
         int Comic { get; set; }
         int Usuario { get; set; }
         double Valor { get; set; }
+        int Cantidad { get; set; }
     }
 }

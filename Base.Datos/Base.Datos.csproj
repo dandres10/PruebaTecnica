@@ -60,11 +60,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\DAL\Consultas\Compra\ReporteCompraDAL.cs" />
+    <Compile Include="Clases\DAL\Consultas\Compra\ReporteCompraDetalleDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\ComicDAL.cs" />
+    <Compile Include="Clases\DAL\EntidadesRepositorio\CompraDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\PedidoDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\TipoDocumentoDAL.cs" />
     <Compile Include="Clases\DAL\EntidadesRepositorio\UsuarioDAL.cs" />
+    <Compile Include="Clases\DO\Consultas\Compra\ReporteCompra.cs" />
+    <Compile Include="Clases\DO\Consultas\Compra\ReporteCompraDetalle.cs" />
+    <Compile Include="Clases\DO\Consultas\Compra\ReporteCompraDetalleFiltro.cs" />
+    <Compile Include="Clases\DO\Consultas\Compra\ReporteCompraFiltro.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Comic.cs" />
+    <Compile Include="Clases\DO\EntidadesRepositorio\Compra.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Pedido.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\TipoDocumento.cs" />
     <Compile Include="Clases\DO\EntidadesRepositorio\Usuario.cs" />

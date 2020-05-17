@@ -121,6 +121,6 @@
     <value>SELECT * FROM Pedido WHERE Guid= "{0}"</value>
   </data>
   <data name="GuardarPedido" xml:space="preserve">
-    <value>INSERT INTO Pedido(Guid,Comic,Valor,Usuario) VALUES (?,?,?,?)</value>
+    <value>INSERT INTO Pedido(Guid,Comic,Valor,Usuario,Cantidad) VALUES (?,?,?,?,?)</value>
   </data>
 </root>

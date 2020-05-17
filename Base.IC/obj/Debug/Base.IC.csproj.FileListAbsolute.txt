@@ -6,7 +6,9 @@ C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\Base.IC\obj\Debug\Base.IC.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\bin\Debug\Base.IC.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\bin\Debug\Base.IC.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.ComicQuery.resources
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.CompraQuery.resources
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.PedidoQuery.resources
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.ReportesCompraQuery.resources
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.TipoDocumentoQuery.resources
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Querys.UsuarioQuery.resources
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\Base.IC\obj\Debug\Base.IC.RecursosTxt.Transversales.Mensajes.resources

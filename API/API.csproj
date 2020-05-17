@@ -129,13 +129,20 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ComicController.cs" />
+    <Compile Include="Controllers\CompraController.cs" />
+    <Compile Include="Controllers\Consultas\ReportesComprasController.cs" />
     <Compile Include="Controllers\PedidoController.cs" />
     <Compile Include="Controllers\TipoDocumentoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Consultas\ReporteCompra.cs" />
+    <Compile Include="Models\Consultas\ReporteCompraDetalle.cs" />
+    <Compile Include="Models\Consultas\ReporteCompraDetalleFiltro.cs" />
+    <Compile Include="Models\Consultas\ReporteCompraFiltro.cs" />
     <Compile Include="Models\EntidadesRepositorio\Comic.cs" />
+    <Compile Include="Models\EntidadesRepositorio\Compra.cs" />
     <Compile Include="Models\EntidadesRepositorio\Pedido.cs" />
     <Compile Include="Models\EntidadesRepositorio\TipoDocumento.cs" />
     <Compile Include="Models\EntidadesRepositorio\Usuario.cs" />

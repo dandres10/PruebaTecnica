@@ -8,5 +8,6 @@
         public int Comic { get; set; }
         public int Usuario { get; set; }
         public double Valor { get; set; }
+        public int Cantidad { get; set; }
     }
 }

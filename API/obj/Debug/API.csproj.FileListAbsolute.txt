@@ -89,6 +89,7 @@ C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.csproj.CoreComp
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.dll
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.pdb
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Contexto\comicDB.db
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.pdb

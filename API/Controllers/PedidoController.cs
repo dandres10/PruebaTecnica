@@ -54,7 +54,8 @@
                     Comic = item.Comic,
                     Guid = item.Guid,
                     Usuario = item.Usuario,
-                    Valor = item.Valor
+                    Valor = item.Valor,
+                    Cantidad = item.Cantidad
                 };
                 entidades.Add(pedido);
             }

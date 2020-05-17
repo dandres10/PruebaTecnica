@@ -70,7 +70,7 @@ namespace Base.IC.RecursosTxt.Querys {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a INSERT INTO Pedido(Guid,Comic,Valor,Usuario) VALUES (?,?,?,?).
+        ///   Busca una cadena traducida similar a INSERT INTO Pedido(Guid,Comic,Valor,Usuario,Cantidad) VALUES (?,?,?,?,?).
         /// </summary>
         public static string GuardarPedido {
             get {

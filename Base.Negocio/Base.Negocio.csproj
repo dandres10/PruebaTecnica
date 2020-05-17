@@ -41,12 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\BL\Consultas\ReporteCompraBL.cs" />
+    <Compile Include="Clases\BL\Consultas\ReporteCompraDetalleBL.cs" />
     <Compile Include="Clases\BL\EntidadesRepositorio\ComicBL.cs" />
+    <Compile Include="Clases\BL\EntidadesRepositorio\CompraBL.cs" />
     <Compile Include="Clases\BL\EntidadesRepositorio\PedidoBL.cs" />
     <Compile Include="Clases\BL\EntidadesRepositorio\TipoDocumentoBL.cs" />
     <Compile Include="Clases\BL\EntidadesRepositorio\UsuarioBL.cs" />
+    <Compile Include="Clases\BO\Consultas\ReporteCompraBO.cs" />
+    <Compile Include="Clases\BO\Consultas\ReporteCompraDetalleBO.cs" />
+    <Compile Include="Clases\BO\Consultas\ReporteCompraDetalleFiltroBO.cs" />
+    <Compile Include="Clases\BO\Consultas\ReporteCompraFiltroBO.cs" />
     <Compile Include="Clases\BO\EntidadesRepositorio\ComicBO.cs" />
-    <Compile Include="Clases\BO\EntidadesRepositorio\PedidosBO.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\CompraBO.cs" />
+    <Compile Include="Clases\BO\EntidadesRepositorio\PedidoBO.cs" />
     <Compile Include="Clases\BO\EntidadesRepositorio\TipoDocumentoBO.cs" />
     <Compile Include="Clases\BO\EntidadesRepositorio\UsuarioBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,5 +72,6 @@
       <Name>Base.IC</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

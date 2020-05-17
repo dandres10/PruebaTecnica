@@ -24,6 +24,12 @@
             this.Respuesta = new Respuesta<IPedidoDTO>();
         }
 
+        ~PedidoDAL()
+        {
+            connection.Close();
+            dataReader.Close();
+        }
+
         public Respuesta<IPedidoDTO> GuadarPedido(List<IPedidoDTO> pedido)
         {
             List<Pedido> pedidoObj = new List<Pedido>();
@@ -41,6 +47,7 @@
                         command.Parameters.Add(new SQLiteParameter("Comic", item.Comic));
                         command.Parameters.Add(new SQLiteParameter("Valor", item.Valor));
                         command.Parameters.Add(new SQLiteParameter("Usuario", item.Usuario));
+                        command.Parameters.Add(new SQLiteParameter("Cantidad", item.Cantidad));
 
                         ExecuteNonQuery(command, pedido);
                     }
@@ -76,14 +83,15 @@
                     {
                         Pedido pedidoObj = new Pedido
                         {
+                            Cantidad = Convert.ToInt32(dataReader["Cantidad"].ToString()),
                             Guid = dataReader["Guid"].ToString(),
                             Comic = Convert.ToInt32(dataReader["Comic"].ToString()),
                             Usuario = Convert.ToInt32(dataReader["Usuario"].ToString()),
                             Valor = Convert.ToDouble(dataReader["Valor"].ToString())
+                            
                         };
                         pedidos.Add(pedidoObj);
                     }
-                    
                 }
                 dataReader.Close();
                 connection.Close();
@@ -92,7 +100,7 @@
             }
             catch (Exception error)
             {
-                RespuestaFallido(error);
+                RespuestaFallido(error.Message.ToString());
                 dataReader.Close();
                 connection.Close();
             }
@@ -109,7 +117,7 @@
             Respuesta.TipoNotificacion = (int)TipoNotificacion.Exitoso;
         }
 
-        private void RespuestaFallido(Exception error)
+        private void RespuestaFallido(string error)
         {
             List<string> mensajes = new List<string>();
             mensajes.Add(Mensajes.ErrorAlIngresarDatos);
@@ -126,12 +134,11 @@
             {
                 command.ExecuteNonQuery();
                 RespuestaExitoso(pedido);
-                
             }
             catch (Exception error)
             {
-                RespuestaFallido(error);
-                connection.Close();
+                RespuestaFallido(error.Message.ToString());
+              
             }
         }
 
@@ -146,7 +153,8 @@
                     Guid = item.Guid,
                     Comic = item.Comic,
                     Usuario = item.Usuario,
-                    Valor = item.Valor
+                    Valor = item.Valor,
+                    Cantidad = item.Cantidad
                 };
 
                 listaPedidos.Add(pedido);
