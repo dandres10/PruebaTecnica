@@ -89,7 +89,6 @@ C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.csproj.CoreComp
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.dll
 C:\Users\dandr\OneDrive\Documents\MEGAsync\Arq\API\obj\Debug\API.pdb
-C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Contexto\comicDB.db
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\API.pdb
@@ -149,7 +148,9 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Microsoft.CodeDom.Providers.
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Newtonsoft.Json.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Net.Http.Formatting.dll
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Cors.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Helpers.dll
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.Cors.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.WebHost.dll
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Mvc.dll
@@ -166,6 +167,7 @@ C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Negocio.pdb
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\Base.Negocio.dll.config
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Net.Http.Formatting.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.xml
+C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.Cors.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Http.WebHost.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Helpers.xml
 C:\Users\dandr\Desktop\Prueba\PruebaTecnica\API\bin\System.Web.Mvc.xml

@@ -21,6 +21,9 @@
 
         public Respuesta<IUsuarioDTO> GuadarUsuario(IUsuarioDTO usuario)
         {
+            int tipoDocumento = usuario.TipoDocumento != 0 ?  usuario.TipoDocumento:1;
+            usuario.TipoDocumento = tipoDocumento;
+
             return usuarioDAL.GuadarUsuario(usuario);
         }
     }

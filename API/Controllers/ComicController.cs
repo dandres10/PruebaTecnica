@@ -2,11 +2,14 @@
 {
     using API.Models.EntidadesRepositorio;
     using Base.IC.Clases;
+    using Base.IC.Configuracion;
     using Base.IC.DTO.EntidadesRepositorio;
     using Base.Negocio.Clases.BL.EntidadesRepositorio;
     using System.Collections.Generic;
     using System.Web.Http;
+    using System.Web.Http.Cors;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/Comic")]
     public class ComicController : ApiController
     {
@@ -21,10 +24,11 @@
         [Route("ConsultarComic")]
         public Respuesta<Comic> ConsultarComic(Comic comic)
         {
-            return Mapeador(comicBL.ConsultarComic(comic));
+            return Mapeador(comicBL.ConsultarComic(comic)); 
         }
 
         [HttpPost]
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
         [Route("GuadarComic")]
         public Respuesta<Comic> GuadarComic(Comic comic)
         {

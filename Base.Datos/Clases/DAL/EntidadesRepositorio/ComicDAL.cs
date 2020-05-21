@@ -17,7 +17,7 @@
     {
         private Respuesta<IComicDTO> Respuesta;
         private SQLiteConnection connection;
-        private SQLiteCommand command;
+        private SQLiteCommand command; 
         private SQLiteDataReader dataReader;
 
         public ComicDAL()

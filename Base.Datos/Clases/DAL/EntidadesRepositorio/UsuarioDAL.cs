@@ -100,11 +100,23 @@
 
         private void ExecuteNonQuery(SQLiteCommand command, IUsuarioDTO usuario)
         {
+            IUsuarioDTO usuarioId;
+
             try
             {
                 command.ExecuteNonQuery();
-                RespuestaExitoso(usuario);
                 connection.Close();
+                using (connection = Contexto.GetInstance())
+                {
+                    string query = string.Format("SELECT * FROM Usuario where NumeroDocumento={0}", usuario.NumeroDocumento);
+                    using (command = new SQLiteCommand(query, connection))
+                    {
+                        usuarioId = ExecuteReadSinRespuesta(command);
+                    }
+                }
+
+                RespuestaExitoso(usuarioId);
+                
             }
             catch (Exception error)
             {
@@ -144,6 +156,31 @@
                 RespuestaFallido(error);
                 dataReader.Close();
             }
+        }
+
+        private IUsuarioDTO ExecuteReadSinRespuesta(SQLiteCommand command)
+        {
+            List<IUsuarioDTO> usuarios = new List<IUsuarioDTO>();
+
+            using (dataReader = command.ExecuteReader())
+            {
+                while (dataReader.Read())
+                {
+                    Usuario usuarioObj = new Usuario
+                    {
+                        Id = Convert.ToInt32(dataReader["id"].ToString()),
+                        Celular = Convert.ToInt32(dataReader["Celular"].ToString()),
+                        Direccion = dataReader["Direccion"].ToString(),
+                        Nombre = dataReader["Nombre"].ToString(),
+                        NumeroDocumento = Convert.ToInt32(dataReader["NumeroDocumento"].ToString()),
+                        TipoDocumento = Convert.ToInt32(dataReader["TipoDocumento"].ToString())
+                    };
+                    usuarios.Add(usuarioObj);
+                }
+                dataReader.Close();
+            }
+
+            return usuarios.First();
         }
     }
 }
