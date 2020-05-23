@@ -24,11 +24,11 @@
             this.Respuesta = new Respuesta<ICompraDTO>();
         }
 
-        ~CompraDAL()
-        {
-            connection.Close();
-            dataReader.Close();
-        }
+        //~CompraDAL()
+        //{
+        //    connection.Close();
+        //    dataReader.Close();
+        //}
 
         public Respuesta<ICompraDTO> GuadarCompra(ICompraDTO compra)
         {

@@ -25,11 +25,11 @@
             this.Respuesta = new Respuesta<IReporteCompraDTO>();
         }
 
-        ~ReporteCompraDAL()
-        {
-            connection.Close();
-            dataReader.Close();
-        }
+        //~ReporteCompraDAL()
+        //{
+        //    connection.Close();
+        //    dataReader.Close();
+        //}
 
         public Respuesta<IReporteCompraDTO> ReporteCompra(IReporteCompraFiltroDTO reporteCompraFiltro)
         {

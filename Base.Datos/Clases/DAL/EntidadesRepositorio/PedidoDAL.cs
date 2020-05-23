@@ -24,11 +24,11 @@
             this.Respuesta = new Respuesta<IPedidoDTO>();
         }
 
-        ~PedidoDAL()
-        {
-            connection.Close();
-            dataReader.Close();
-        }
+        //~PedidoDAL()
+        //{
+        //    connection.Close();
+        //    dataReader.Close();
+        //}
 
         public Respuesta<IPedidoDTO> GuadarPedido(List<IPedidoDTO> pedido)
         {
